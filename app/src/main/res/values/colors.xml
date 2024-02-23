@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_primary">#9A1A45</color>
+    <color name="background">#200550</color>
+    <color name="letras">#31C539</color>
+    <color name="moradoFondoSplash">#330066</color>
+    <color name="background2">#000000</color>
+    <color name="letras2">#1CAD34</color>
+    <color name="titulos">#8CA323</color>
+    <color name="colorHint">#DA234723</color>
+    <color name="colorEsquinas">#266631</color>
+    <color name="colorVerdeTitulos">#A83FC457</color>
+    <color name="colorBotones">#37941BFF</color>
+    <color name="colorBotones2">#37481A93</color>
+    <color name="colorMoradoLetras">#9B09DA</color>
+    <color name="colorLetraPequeña">#7818A1</color>
+    <color name="noBorrar">#376723D6</color>
+    <color name="noBorrar2">#11022C</color>
+    <color name="colorMenu">#7C11022C</color>
+    <color name="colorNumeros">#7C22E88A</color>
+    <color name="colorBotones3">#59A60CE8</color>
+    <color name="colorVerde2">#3FC851</color>
+    <color name="colorMoradoTransparencia">#16941BFF</color>
+    <color name="colorMoradoTransparencia2">#BF2D0A4B</color>
+    <color name="colorMoradoTransparencia3">#3E8D1AB6</color>
+    <color name="blancoTransparente">#8AFFFFFF</color>
+
+</resources>

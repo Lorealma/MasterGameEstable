@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014627797058",
+    "project_id": "mastergame-fa197",
+    "storage_bucket": "mastergame-fa197.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014627797058:android:cb2547a0e43a004c09c5db",
+        "android_client_info": {
+          "package_name": "com.example.mastergame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm4nkZME76m5p5R7QVV_jIJrYHk7rdJWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

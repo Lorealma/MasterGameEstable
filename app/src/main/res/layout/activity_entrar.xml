@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/estrellasdos"
+
+    tools:context=".funcionesPrincipales.EntrarActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/logo2"  />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/email_input"
+        android:background="@drawable/esquinas_redonditas"
+        android:hint="Correo"
+        android:textColorHint="@color/colorHint"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textSize="16dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/colorNumeros"/>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/contrasena_input"
+        android:background="@drawable/esquinas_redonditas"
+        android:hint="Contraseña"
+        android:textColorHint="@color/colorHint"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorNumeros"
+        android:layout_margin="10dp"/>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_boton"
+        android:text="Entrar"
+        android:backgroundTint="@color/colorMoradoTransparencia3"
+        android:layout_margin="30dp"
+        android:padding="12dp"/>
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:id="@+id/progressBar"
+        android:layout_height="60dp"
+        android:layout_margin="12dp"
+        android:visibility="gone"
+        android:padding="12dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Aun no tienes cuenta?"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp"
+        android:id="@+id/go_to_Registrarse_btn"/>
+
+
+
+
+</LinearLayout>

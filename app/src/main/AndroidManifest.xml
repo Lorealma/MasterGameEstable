@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_bien"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_bien"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MasterGame"
+        tools:targetApi="31">
+        <activity
+            android:name=".funcionesPrincipales.ComentariosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.PrivacidadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.EditarPerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesSecundarias.FollowingList"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesSecundarias.Corversacion"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesSecundarias.Chat"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.Social"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesSecundarias.Lista_Seguidores"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesSecundarias.Noticias"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.ListaVideosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.ExplorerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.ReproductordeVideoUActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.PerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.SubirVideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.RegistrarseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".funcionesPrincipales.EntrarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MasterGame</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titular">Titular</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="date_time">DATE TIME</string>
+    <string name="source">SOURCE</string>
+    <string name="ejemploComentario">Esto es un ejemplo de comentario
+        Esto es un ejemplo de comentario
+        Esto es un ejemplo de comentario
+        Esto es un ejemplo de comentario</string>
+    <string name="textoPrivacidad">**Política de Privacidad de MASTER GAME**
+
+        Bienvenido a MASTER GAME, donde la diversión y la privacidad de nuestros usuarios son
+        nuestras principales prioridades.
+
+        **Recopilación de Información:**
+        Para brindar la mejor experiencia de juego, podemos recopilar información limitada,
+        como estadísticas de juego y preferencias, de forma anónima.
+
+        **Uso de la Información:**
+        La información recopilada se utiliza para mejorar nuestros servicios, personalizar
+        tu experiencia de juego y garantizar la seguridad del sistema.
+
+        **Compartir Información:**
+        En MASTER GAME, nos comprometemos a no compartir tu información personal con terceros
+        sin tu consentimiento expreso.
+
+        **Seguridad:**
+        Implementamos medidas de seguridad avanzadas para proteger tus datos y garantizar
+        un entorno de juego seguro.
+
+        **Cambios en la Política:**
+        Nos reservamos el derecho de actualizar nuestra política de privacidad.
+        Te notificaremos sobre cualquier cambio significativo.
+
+        Gracias por confiar en nosotros. Si tienes alguna pregunta, no dudes en contactarnos.</string>
+</resources>

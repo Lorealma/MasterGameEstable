@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estrellasdos"
+    tools:context=".funcionesPrincipales.MainActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_nav_bar"
+        android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fav"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="416dp"
+            android:clickable="true"
+            android:src="@drawable/corazonoscuro"
+            app:layout_constraintBottom_toTopOf="@+id/iv_comentario"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.958"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.943" />
+
+        <ImageView
+            android:id="@+id/iv_comentario"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="96dp"
+            android:clickable="true"
+            android:src="@drawable/comentarionw"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.958"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_nav_bar"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/colorMoradoLetras"
+        app:itemTextColor="@color/colorMoradoLetras"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"/>
+
+
+</RelativeLayout>

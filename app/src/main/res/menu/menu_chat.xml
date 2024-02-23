@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/New_Chat"
+        android:title="New Chat" />
+    <item
+        android:id="@+id/crea_grupo"
+        android:title="Crea Grupo" />
+    <item
+        android:id="@+id/entrar_grupo"
+        android:title="Entrar en Grupo" />
+
+
+
+
+
+</menu>

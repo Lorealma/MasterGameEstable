@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Categorias"
+        android:id="@+id/categorias"/>
+    <item
+        android:title="Noticias"
+        android:id="@+id/Noticias"/>
+    <item
+        android:title="Calendario"
+        android:id="@+id/calendario"/>
+    <item
+        android:title="Tu Lista"
+        android:id="@+id/tu_lista"/>
+
+
+
+</menu>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    android:background="@drawable/estrellasdos"
+    tools:context=".funcionesPrincipales.ExplorerActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:id="@+id/toolbar">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                android:clickable="true"
+                android:id="@+id/menu_image"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explorar"
+                android:fontFamily="@font/aldrich"
+                android:textColor="@color/colorVerde2"
+                android:textSize="28sp"
+
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:layout_below="@+id/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Categorias"
+                    android:textColor="@color/colorLetraPequeña"
+                    android:textSize="22sp"
+                    android:fontFamily="@font/aldrich"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categoriasRecyclerView"/>
+            </LinearLayout>
+
+        </ScrollView>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_nav_menu"
+            app:itemTextColor="@color/colorMoradoLetras"
+            app:itemIconTint="@color/colorMoradoLetras"
+            android:background="@color/black" />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="200sp"
+        android:layout_height="250dp"
+        android:layout_gravity="start"
+        android:id="@+id/menu_top_explorer"
+        app:menu="@menu/menu_explorer"
+        app:itemTextColor="#FFFFFF"
+        android:background="@color/colorMoradoTransparencia2"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

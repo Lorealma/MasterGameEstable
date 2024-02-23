@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title=" "
+        android:icon="@drawable/icon_inicio"
+        android:id="@+id/bottom_menu_inicio"/>
+    <item android:title=" "
+        android:icon="@drawable/icon_buscar"
+        android:id="@+id/bottom_menu_explorar"/>
+    <item android:title=" "
+        android:icon="@drawable/icon_anadir"
+        android:id="@+id/bottom_menu_añadir_video"/>
+    <item android:title=" "
+        android:icon="@drawable/cohetedos"
+        android:id="@+id/bottom_menu_retos"/>
+    <item android:title=" "
+        android:icon="@drawable/boton_perfil"
+        android:id="@+id/botton_menu_perfil"/>
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Favoritos"
+        android:id="@+id/favorito"/>
+    <item
+        android:title="Editar perfil"
+        android:id="@+id/editarPerfil"/>
+    <item
+        android:title="Privacidad"
+        android:id="@+id/privacidad"/>
+
+</menu>

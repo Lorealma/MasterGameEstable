@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estrellasdos"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".funcionesPrincipales.EditarPerfilActivity">
+
+    <ImageView
+        android:id="@+id/iv_imagenUsuario"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/perfilusertransparente" />
+
+    <TextView
+        android:id="@+id/btn_cambiarImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar imagen de perfil"
+        android:textSize="10dp"
+        android:textColor="@color/colorLetraPequeña"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/tv_nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar nick-name"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="105dp"
+        android:layout_gravity="left"/>
+
+    <EditText
+        android:id="@+id/et_nick"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nick-name"
+        android:textSize="16dp"
+        android:textColorHint="#40FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_cambiarContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nueva contraseña"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="105dp"
+        android:layout_gravity="left"/>
+
+    <EditText
+        android:id="@+id/et_nuevaContraseña"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Contraseña"
+        android:textColorHint="#40FFFFFF"
+        android:textSize="16dp"
+        android:textColor="#40FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_confirmarContraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repita contraseña"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="105dp"
+        android:layout_gravity="left"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Repita contraseña"
+        android:textColorHint="#40FFFFFF"
+        android:textSize="16dp"
+        android:textColor="#40FFFFFF"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo e-mail"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="105dp"
+        android:layout_gravity="left"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:textColorHint="#40FFFFFF"
+        android:textSize="16dp"
+        android:textColor="#40FFFFFF"
+        android:layout_marginBottom="30dp"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btn_confirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar cambios"
+        android:textSize="12dp"
+        android:backgroundTint="@color/colorMoradoTransparencia3" />
+
+
+</LinearLayout>

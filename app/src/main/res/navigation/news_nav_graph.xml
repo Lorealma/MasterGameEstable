@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/titulos_Fragmentos">
+
+    <fragment
+        android:id="@+id/articulos_Fragmentos"
+        android:name="com.example.mastergame.funcionesSecundarias.fragmentos.ArticulosFragmentos"
+        android:label="Articulos_Fragmentos" >
+
+    <argument
+        android:name="article"
+        app:argType="com.example.mastergame.model.Article"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/favoritas_noticias_Fragmentos"
+        android:name="com.example.mastergame.funcionesSecundarias.fragmentos.Favoritas_noticias_Fragmentos"
+        android:label="Favoritas_noticias_Fragmentos" >
+        <action
+            android:id="@+id/action_favoritas_noticias_Fragmentos_to_articulos_Fragmentos"
+            app:destination="@id/articulos_Fragmentos" />
+    </fragment>
+    <fragment
+        android:id="@+id/titulos_Fragmentos"
+        android:name="com.example.mastergame.funcionesSecundarias.fragmentos.TitulosFragmentos"
+        android:label="Titulos_Fragmentos" >
+        <action
+            android:id="@+id/action_titulos_Fragmentos_to_articulos_Fragmentos"
+            app:destination="@id/articulos_Fragmentos" />
+        <action
+            android:id="@+id/action_titulos_Fragmentos_to_favoritas_noticias_Fragmentos"
+            app:destination="@id/favoritas_noticias_Fragmentos" />
+        <action
+            android:id="@+id/action_titulos_Fragmentos_to_buscador_Noticias_Fragment"
+            app:destination="@id/buscador_Noticias_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buscador_Noticias_Fragment"
+        android:name="com.example.mastergame.funcionesSecundarias.fragmentos.Buscador_Noticias_Fragment"
+        android:label="Buscador_Noticias_Fragment" >
+        <action
+            android:id="@+id/action_buscador_Noticias_Fragment_to_articulos_Fragmentos"
+            app:destination="@id/articulos_Fragmentos" />
+    </fragment>
+</navigation>
